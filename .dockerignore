@@ -1,0 +1,42 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore virtual environment directories
+venv
+env
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+
+# Ignore local development settings
+*.local
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+tmp/
+*.swp
+
+# Ignore Python egg files
+*.egg-info/
+.eggs/
+
+# Ignore compiled files
+*.o
+*.so
+
+# Ignore project dependencies
+__pycache__/
+
+# Other files
+*.txt
+*.md
+test-pod.yaml
